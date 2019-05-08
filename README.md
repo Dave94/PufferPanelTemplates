@@ -18,3 +18,10 @@ sudo apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib
 # If using Debian Stretch or lower, you need to install Python too using...
 sudo apt-get install python3.5 python3-pip -y
 ```
+
+### Post Installation Steps
+There are two files:
+* config/options.ini
+* config/permissions.ini
+
+Please edit them according to the [manual](https://just-some-bots.github.io/MusicBot/using/configuration/)
