@@ -2,6 +2,10 @@
 Custom Templates for PufferPanel
 
 ## MusicBot
+
+### Missing features
+* Stop, Restart doesn't work. Now one should kill the python3 run.py processes manually from terminal.
+
 ### Prerequisites
 
 The following steps from the [manual](https://just-some-bots.github.io/MusicBot/installing/debian/) should be done before installing server from the template.
