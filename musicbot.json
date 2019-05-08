@@ -1,0 +1,35 @@
+{
+	"pufferd": {
+		"type": "MusicBot",
+		"display": "MusicBot for Discord",
+		"install": {
+			"commands": [
+				{
+					"commands": [
+						"git clone https://github.com/Just-Some-Bots/MusicBot.git MusicBot -b master",
+						"cd MusicBot",
+						"python3.5 -m pip install --upgrade pip",
+						"python3.5 -m pip install --user --upgrade -r MusicBot/requirements.txt",
+						"mv MusicBot/config/example_options.ini MusicBot/config/options.ini",
+						"mv MusicBot/config/example_permissions.ini MusicBot/config/permissions.ini"
+					],
+					"type": "command"
+				}
+			]
+		},
+		"run": {
+			"stopCode": 2,
+			"pre": [],
+			"post": [],
+			"arguments": [
+				"MusicBot/run.sh"
+			],
+			"program": "bash"
+		},
+		"environment": {
+			"type": "standard"
+		},
+		"data": {
+		}
+	}
+}
