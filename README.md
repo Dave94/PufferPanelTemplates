@@ -1,5 +1,6 @@
 # PufferPanelTemplates
 Custom Templates for PufferPanel
+https://pufferd.pufferpanel.com/docs/creating-pufferd-templates
 
 ## MusicBot
 
